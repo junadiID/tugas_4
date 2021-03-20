@@ -8,13 +8,13 @@ Nim     : 20190040028
 Matkul  : Sistem Operasi
 */
     public static void main(String[] args) throws InterruptedException {
-        for(int i = 1; i<=50; i++){
+        for(int a = 1; a<=50; a++){
             Thread.sleep (1000);
-            System.out.println (i);
+            System.out.println ("Increment> " + a);
         }
-        for(int j = 49; j>=1; j--){
+        for(int b = 50; b>=1; b--){
             Thread.sleep (1000);
-            System.out.println (j);
+            System.out.println ("Decrement> " + b);
         }
     }
     
